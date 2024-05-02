@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    input{
+        @apply h-[40px] border-solid border border-[var(--border-color)] outline-none px-10 rounded-md w-full;
+        padding: 0 8px !important;
+        background-position: center right 10px;
+        background-repeat: no-repeat;
+        background-size: 20px;
+    }
+
+}

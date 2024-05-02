@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .univ-list{
+        @apply bg-slate-100 p-3 mb-3 rounded-md relative;
+        box-shadow: 0px 2px 3px var(--border-color);
+    }
+
+    .univ-list h3,
+    .univ-list a{
+        @apply text-gray-500 text-[12px];
+    }
+
+    .univ-list .univ-delete-list{
+        @apply h-[40px] w-[40px] float-right
+         bg-center bg-no-repeat 
+         bg-red-400 p-3 
+         absolute top-0 bottom-0 right-6 m-auto
+         rounded-[50%] cursor-pointer;
+        background-size: 20px;
+    }
+
+}
